@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".wednesday">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="236dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        app:srcCompat="@drawable/wednesday" />
+
+    <Button
+        android:id="@+id/but_planks"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorFlower"
+        android:layout_marginTop="278dp"
+        android:text="PLANKS"
+        android:textColor="@color/colorSaturday"
+        android:textSize="40dp" />
+
+
+    <Button
+        android:id="@+id/but_crunches"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="344dp"
+        android:text="CRUNCHES"
+        android:background="@color/colorMint"
+        android:textColor="@color/colorWhite"
+        android:textSize="40dp" />
+
+
+    <Button
+        android:id="@+id/but_squats"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="410dp"
+        android:text="SQUATS"
+        android:background="@color/colorBitterSweet"
+        android:textColor="@color/colorThursday"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/but_lunges"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="476dp"
+        android:text="LUNGES"
+        android:background="@color/colorPinkRoseDark"
+        android:textColor="@color/colorAccent"
+        android:textSize="40dp" />
+
+</RelativeLayout>

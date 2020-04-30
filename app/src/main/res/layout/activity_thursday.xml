@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".thursday">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="236dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        app:srcCompat="@drawable/thursday" />
+
+    <Button
+        android:id="@+id/but_pushup"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorthree"
+        android:layout_marginTop="278dp"
+        android:text="PUSH UPS"
+        android:textColor="@color/colorSaturday"
+        android:textSize="40dp" />
+
+
+    <Button
+        android:id="@+id/but_sprint"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="344dp"
+        android:text="SPRINT"
+        android:textColor="@color/colorWednesday"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/but_sideplank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIDE PLANK"
+        android:layout_marginTop="410dp"
+        android:background="@color/colorGrapeFruitDark"
+        android:textColor="@color/colorThursday"
+        android:textSize="40dp" />
+
+
+    <Button
+        android:id="@+id/but_lunges"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="476dp"
+        android:text="LUNGES"
+        android:background="@color/colorthree"
+        android:textColor="@color/colorAccent"
+        android:textSize="40dp" />
+
+</RelativeLayout>

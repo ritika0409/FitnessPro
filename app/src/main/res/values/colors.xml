@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fdb6b6</color>
+    <color name="colorPrimaryDark">#fdb6b6</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorGrapeFruit">#ED5565</color>
+    <color name="colorGrapeFruitDark">#DA4453</color>
+    <color name="colorBitterSweet">#FC6E51</color>
+    <color name="colorBitterSweetDark">#E9573F</color>
+    <color name="colorFlower">#FFCE54</color>
+    <color name="colorFlowerDark">#F68B42</color>
+    <color name="colorGrass">#A0D468</color>
+    <color name="colorGrassDark">#8CC152</color>
+    <color name="colorBlueJeans">#509CEC</color>
+    <color name="colorBlueJeansDark">#4A89DC</color>
+    <color name="colorLavander">#AC92EC</color>
+    <color name="colorLavanderDark">#967ADC</color>
+    <color name="colorMint">#48CFAD</color>
+    <color name="colorMintDark">#37BC9B</color>
+    <color name="colorAqua">#4FC1E9</color>
+    <color name="colorAquaDark">#3BAFDA</color>
+    <color name="colorPinkRose">#EC87C0</color>
+    <color name="colorPinkRoseDark">#D770AD</color>
+    <color name="pink">#fdb6b6</color>
+    <color name="colorMonday">#ED5565</color>
+    <color name="colorTuesday">#FFEB3B</color>
+    <color name="colorWednesday">#03A9F4</color>
+    <color name="colorThursday">#24E62E</color>
+    <color name="colorFriday">#3EBEA4</color>
+    <color name="colorSaturday">#C423C1</color>
+    <color name="colorSunday">#FFC107</color>
+    <color name="colorone">#CEF597FA</color>
+    <color name="colortwo">#B5A8FF41</color>
+    <color name="colorthree">#EBC57A</color>
+    <color name="colorfour">#FFE512</color>
+</resources>

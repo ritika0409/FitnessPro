@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fitnesspro">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".squats"/>
+        <activity android:name=".lunges" />
+        <activity android:name=".sideplank" />
+        <activity android:name=".crunches" />
+        <activity android:name=".sprint" />
+        <activity android:name=".planks" />
+        <activity android:name=".pushup" />
+        <activity android:name=".stopwatch" />
+        <activity android:name=".timer" />
+        <activity android:name=".sunday" />
+        <activity android:name=".saturday" />
+        <activity android:name=".friday" />
+        <activity android:name=".thursday" />
+        <activity android:name=".wednesday" />
+        <activity android:name=".tuesday" />
+        <activity android:name=".Monday" />
+        <activity android:name=".workout" />
+        <activity android:name=".feedback" />
+        <activity android:name=".pic3" />
+        <activity android:name=".pic2" />
+        <activity android:name=".pic1" />
+        <activity android:name=".dietplan" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

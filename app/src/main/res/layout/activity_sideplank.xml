@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLavander"
+    tools:context=".sideplank">
+    <ImageView
+        android:id="@+id/image_pushup"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        app:srcCompat="@drawable/sideplank_icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIDE PLANKS"
+        android:id="@+id/tv_sideplanks"
+        android:layout_below="@id/image_pushup"
+        android:layout_centerInParent="true"
+        android:fontFamily="monospace"
+        android:textColor="#123456"
+        android:textSize="25dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_sideplanks"
+        android:text="Targets: Abdominal, back and shoulders"
+        android:textSize="25dp"
+        android:id="@+id/tv_Target"
+        android:fontFamily="sans-serif-black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_Target"
+        android:text="Time Duration: 1 minute"
+        android:textSize="25dp"
+        android:id="@+id/tv_Time"
+        android:fontFamily="sans-serif-black"/>
+
+    <TextView
+        android:id="@+id/tv_Benefits"
+        android:layout_width="match_parent"
+        android:layout_height="229dp"
+        android:layout_below="@id/tv_Time"
+        android:fontFamily="sans-serif-black"
+        android:text="Benefits:\nSide Plank is really a full-body pose. You work pretty much every part, and the legs are no exception.\n
+By strengthening your back, chest, shoulders, neck, and abs, this exercise makes it easier to keep your shoulders back and your lower back in a neutral position while sitting or standing — two vital components of good posture. "
+        android:textSize="16dp" />
+    <Button
+        android:id="@+id/but_Step"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="sans-serif-black"
+        android:text="Step-by-Step Instructions "
+        android:textSize="20dp" />
+
+
+</RelativeLayout>

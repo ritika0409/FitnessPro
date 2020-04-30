@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAqua"
+    tools:context=".sprint">
+    <ImageView
+        android:id="@+id/image_pushup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sprint_icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SPRINT"
+        android:id="@+id/tv_sprint"
+        android:layout_below="@id/image_pushup"
+        android:layout_centerInParent="true"
+        android:fontFamily="monospace"
+        android:textColor="#123456"
+        android:textSize="25dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_sprint"
+        android:text="Targets: Lower Body"
+        android:textSize="25dp"
+        android:id="@+id/tv_Target"
+        android:fontFamily="sans-serif-black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_Target"
+        android:text="Time Duration: 5 minutes"
+        android:textSize="25dp"
+        android:id="@+id/tv_Time"
+        android:fontFamily="sans-serif-black"/>
+
+    <TextView
+        android:id="@+id/tv_Benefits"
+        android:layout_width="match_parent"
+        android:layout_height="229dp"
+        android:layout_below="@id/tv_Time"
+        android:fontFamily="sans-serif-black"
+        android:text="Benefits:\nThe benefits of sprinting are endless.\nIt is an excellent cardiovascular exercise, it increases your stamina, burns lot of calories in a short time and moreover, it gives a boost to your metabolism so even when your workout is over, it keeps on burning calories "
+        android:textSize="16dp" />
+    <Button
+        android:id="@+id/but_Step"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="sans-serif-black"
+        android:text="Step-by-Step Instructions "
+        android:textSize="20dp" />
+
+
+</RelativeLayout>
